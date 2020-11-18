@@ -43,18 +43,3 @@ public class MyStepdefs {
         System.out.println("Laptop added to the basket");
     }
 }
-/*public class MyStepdefs {
-    @Given("I have a calculator")
-    public void iHaveACalculator() {
-    }
-
-    @When("I add {int} and {int}")
-    public void iAddNumAndNum(int arg0, int arg1) {
-        System.out.println("num1:"+arg0+" , num2:"+arg1);
-    }
-
-    @Then("the result should be {int}")
-    public void theResultShouldBeTotal(Integer int1) {
-        System.out.println("total: "+int1);
-    }
-}*/
